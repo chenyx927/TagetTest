@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TagetTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>TagetTestDemo.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DBF05822254E79F2008D8D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBF05840254E79F3008D8D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBF0584B254E79F3008D8D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBF05861254E7A78008D8D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBF05881254E7C8B008D8D85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

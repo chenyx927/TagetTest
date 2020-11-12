@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF05828254E79F2008D8D85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF05827254E79F2008D8D85 /* AppDelegate.m */; };
+		DBF0582E254E79F2008D8D85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0582D254E79F2008D8D85 /* ViewController.m */; };
+		DBF05831254E79F2008D8D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF0582F254E79F2008D8D85 /* Main.storyboard */; };
+		DBF05834254E79F2008D8D85 /* TagetTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBF05832254E79F2008D8D85 /* TagetTest.xcdatamodeld */; };
+		DBF05836254E79F3008D8D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF05835254E79F3008D8D85 /* Assets.xcassets */; };
+		DBF05839254E79F3008D8D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF05837254E79F3008D8D85 /* LaunchScreen.storyboard */; };
+		DBF0583C254E79F3008D8D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0583B254E79F3008D8D85 /* main.m */; };
+		DBF05846254E79F3008D8D85 /* TagetTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF05845254E79F3008D8D85 /* TagetTestTests.m */; };
+		DBF05851254E79F3008D8D85 /* TagetTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF05850254E79F3008D8D85 /* TagetTestUITests.m */; };
+		DBF05883254E7C8B008D8D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0583B254E79F3008D8D85 /* main.m */; };
+		DBF05884254E7C8B008D8D85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0582D254E79F2008D8D85 /* ViewController.m */; };
+		DBF05885254E7C8B008D8D85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF05827254E79F2008D8D85 /* AppDelegate.m */; };
+		DBF05887254E7C8B008D8D85 /* TagetTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBF05832254E79F2008D8D85 /* TagetTest.xcdatamodeld */; };
+		DBF0588A254E7C8B008D8D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF05837254E79F3008D8D85 /* LaunchScreen.storyboard */; };
+		DBF0588B254E7C8B008D8D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF05835254E79F3008D8D85 /* Assets.xcassets */; };
+		DBF0588C254E7C8B008D8D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF0582F254E79F2008D8D85 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF05842254E79F3008D8D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF0581B254E79F2008D8D85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF05822254E79F2008D8D85;
+			remoteInfo = TagetTest;
+		};
+		DBF0584D254E79F3008D8D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF0581B254E79F2008D8D85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF05822254E79F2008D8D85;
+			remoteInfo = TagetTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBF05823254E79F2008D8D85 /* TagetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF05826254E79F2008D8D85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBF05827254E79F2008D8D85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBF0582C254E79F2008D8D85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBF0582D254E79F2008D8D85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBF05830254E79F2008D8D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF05833254E79F2008D8D85 /* TagetTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TagetTest.xcdatamodel; sourceTree = "<group>"; };
+		DBF05835254E79F3008D8D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBF05838254E79F3008D8D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBF0583A254E79F3008D8D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF0583B254E79F3008D8D85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF05841254E79F3008D8D85 /* TagetTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagetTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF05845254E79F3008D8D85 /* TagetTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagetTestTests.m; sourceTree = "<group>"; };
+		DBF05847254E79F3008D8D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF0584C254E79F3008D8D85 /* TagetTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagetTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF05850254E79F3008D8D85 /* TagetTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagetTestUITests.m; sourceTree = "<group>"; };
+		DBF05852254E79F3008D8D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF05890254E7C8B008D8D85 /* TagetTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagetTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF05891254E7C8B008D8D85 /* TagetTestDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TagetTestDemo-Info.plist"; path = "/Users/chenyx/Desktop/TagetTest/TagetTestDemo-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF05820254E79F2008D8D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF0583E254E79F3008D8D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF05849254E79F3008D8D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF05888254E7C8B008D8D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF0581A254E79F2008D8D85 = {
+			isa = PBXGroup;
+			children = (
+				DBF05825254E79F2008D8D85 /* TagetTest */,
+				DBF05844254E79F3008D8D85 /* TagetTestTests */,
+				DBF0584F254E79F3008D8D85 /* TagetTestUITests */,
+				DBF05824254E79F2008D8D85 /* Products */,
+				DBF05891254E7C8B008D8D85 /* TagetTestDemo-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF05824254E79F2008D8D85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF05823254E79F2008D8D85 /* TagetTest.app */,
+				DBF05841254E79F3008D8D85 /* TagetTestTests.xctest */,
+				DBF0584C254E79F3008D8D85 /* TagetTestUITests.xctest */,
+				DBF05890254E7C8B008D8D85 /* TagetTestDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF05825254E79F2008D8D85 /* TagetTest */ = {
+			isa = PBXGroup;
+			children = (
+				DBF05826254E79F2008D8D85 /* AppDelegate.h */,
+				DBF05827254E79F2008D8D85 /* AppDelegate.m */,
+				DBF0582C254E79F2008D8D85 /* ViewController.h */,
+				DBF0582D254E79F2008D8D85 /* ViewController.m */,
+				DBF0582F254E79F2008D8D85 /* Main.storyboard */,
+				DBF05835254E79F3008D8D85 /* Assets.xcassets */,
+				DBF05837254E79F3008D8D85 /* LaunchScreen.storyboard */,
+				DBF0583A254E79F3008D8D85 /* Info.plist */,
+				DBF0583B254E79F3008D8D85 /* main.m */,
+				DBF05832254E79F2008D8D85 /* TagetTest.xcdatamodeld */,
+			);
+			path = TagetTest;
+			sourceTree = "<group>";
+		};
+		DBF05844254E79F3008D8D85 /* TagetTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF05845254E79F3008D8D85 /* TagetTestTests.m */,
+				DBF05847254E79F3008D8D85 /* Info.plist */,
+			);
+			path = TagetTestTests;
+			sourceTree = "<group>";
+		};
+		DBF0584F254E79F3008D8D85 /* TagetTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF05850254E79F3008D8D85 /* TagetTestUITests.m */,
+				DBF05852254E79F3008D8D85 /* Info.plist */,
+			);
+			path = TagetTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF05822254E79F2008D8D85 /* TagetTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF05855254E79F3008D8D85 /* Build configuration list for PBXNativeTarget "TagetTest" */;
+			buildPhases = (
+				DBF0581F254E79F2008D8D85 /* Sources */,
+				DBF05820254E79F2008D8D85 /* Frameworks */,
+				DBF05821254E79F2008D8D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagetTest;
+			productName = TagetTest;
+			productReference = DBF05823254E79F2008D8D85 /* TagetTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF05840254E79F3008D8D85 /* TagetTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF05858254E79F3008D8D85 /* Build configuration list for PBXNativeTarget "TagetTestTests" */;
+			buildPhases = (
+				DBF0583D254E79F3008D8D85 /* Sources */,
+				DBF0583E254E79F3008D8D85 /* Frameworks */,
+				DBF0583F254E79F3008D8D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF05843254E79F3008D8D85 /* PBXTargetDependency */,
+			);
+			name = TagetTestTests;
+			productName = TagetTestTests;
+			productReference = DBF05841254E79F3008D8D85 /* TagetTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBF0584B254E79F3008D8D85 /* TagetTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF0585B254E79F3008D8D85 /* Build configuration list for PBXNativeTarget "TagetTestUITests" */;
+			buildPhases = (
+				DBF05848254E79F3008D8D85 /* Sources */,
+				DBF05849254E79F3008D8D85 /* Frameworks */,
+				DBF0584A254E79F3008D8D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF0584E254E79F3008D8D85 /* PBXTargetDependency */,
+			);
+			name = TagetTestUITests;
+			productName = TagetTestUITests;
+			productReference = DBF0584C254E79F3008D8D85 /* TagetTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DBF05881254E7C8B008D8D85 /* TagetTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF0588D254E7C8B008D8D85 /* Build configuration list for PBXNativeTarget "TagetTestDemo" */;
+			buildPhases = (
+				DBF05882254E7C8B008D8D85 /* Sources */,
+				DBF05888254E7C8B008D8D85 /* Frameworks */,
+				DBF05889254E7C8B008D8D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagetTestDemo;
+			productName = TagetTest;
+			productReference = DBF05890254E7C8B008D8D85 /* TagetTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF0581B254E79F2008D8D85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					DBF05822254E79F2008D8D85 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					DBF05840254E79F3008D8D85 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DBF05822254E79F2008D8D85;
+					};
+					DBF0584B254E79F3008D8D85 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DBF05822254E79F2008D8D85;
+					};
+				};
+			};
+			buildConfigurationList = DBF0581E254E79F2008D8D85 /* Build configuration list for PBXProject "TagetTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF0581A254E79F2008D8D85;
+			productRefGroup = DBF05824254E79F2008D8D85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF05822254E79F2008D8D85 /* TagetTest */,
+				DBF05840254E79F3008D8D85 /* TagetTestTests */,
+				DBF0584B254E79F3008D8D85 /* TagetTestUITests */,
+				DBF05881254E7C8B008D8D85 /* TagetTestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF05821254E79F2008D8D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF05839254E79F3008D8D85 /* LaunchScreen.storyboard in Resources */,
+				DBF05836254E79F3008D8D85 /* Assets.xcassets in Resources */,
+				DBF05831254E79F2008D8D85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF0583F254E79F3008D8D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF0584A254E79F3008D8D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF05889254E7C8B008D8D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF0588A254E7C8B008D8D85 /* LaunchScreen.storyboard in Resources */,
+				DBF0588B254E7C8B008D8D85 /* Assets.xcassets in Resources */,
+				DBF0588C254E7C8B008D8D85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF0581F254E79F2008D8D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF0583C254E79F3008D8D85 /* main.m in Sources */,
+				DBF0582E254E79F2008D8D85 /* ViewController.m in Sources */,
+				DBF05828254E79F2008D8D85 /* AppDelegate.m in Sources */,
+				DBF05834254E79F2008D8D85 /* TagetTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF0583D254E79F3008D8D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF05846254E79F3008D8D85 /* TagetTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF05848254E79F3008D8D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF05851254E79F3008D8D85 /* TagetTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF05882254E7C8B008D8D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF05883254E7C8B008D8D85 /* main.m in Sources */,
+				DBF05884254E7C8B008D8D85 /* ViewController.m in Sources */,
+				DBF05885254E7C8B008D8D85 /* AppDelegate.m in Sources */,
+				DBF05887254E7C8B008D8D85 /* TagetTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF05843254E79F3008D8D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF05822254E79F2008D8D85 /* TagetTest */;
+			targetProxy = DBF05842254E79F3008D8D85 /* PBXContainerItemProxy */;
+		};
+		DBF0584E254E79F3008D8D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF05822254E79F2008D8D85 /* TagetTest */;
+			targetProxy = DBF0584D254E79F3008D8D85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBF0582F254E79F2008D8D85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF05830254E79F2008D8D85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBF05837254E79F3008D8D85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF05838254E79F3008D8D85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF05853254E79F3008D8D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBF05854254E79F3008D8D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF05856254E79F3008D8D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"DEMO=0",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TagetTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axd.TagetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBF05857254E79F3008D8D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TagetTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axd.TagetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBF05859254E79F3008D8D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TagetTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axd.TagetTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagetTest.app/TagetTest";
+			};
+			name = Debug;
+		};
+		DBF0585A254E79F3008D8D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TagetTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axd.TagetTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagetTest.app/TagetTest";
+			};
+			name = Release;
+		};
+		DBF0585C254E79F3008D8D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TagetTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axd.TagetTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TagetTest;
+			};
+			name = Debug;
+		};
+		DBF0585D254E79F3008D8D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TagetTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axd.TagetTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TagetTest;
+			};
+			name = Release;
+		};
+		DBF0588E254E7C8B008D8D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"DEMO=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TagetTestDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axd.TagetTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBF0588F254E7C8B008D8D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TagetTestDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axd.TagetTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF0581E254E79F2008D8D85 /* Build configuration list for PBXProject "TagetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF05853254E79F3008D8D85 /* Debug */,
+				DBF05854254E79F3008D8D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF05855254E79F3008D8D85 /* Build configuration list for PBXNativeTarget "TagetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF05856254E79F3008D8D85 /* Debug */,
+				DBF05857254E79F3008D8D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF05858254E79F3008D8D85 /* Build configuration list for PBXNativeTarget "TagetTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF05859254E79F3008D8D85 /* Debug */,
+				DBF0585A254E79F3008D8D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF0585B254E79F3008D8D85 /* Build configuration list for PBXNativeTarget "TagetTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF0585C254E79F3008D8D85 /* Debug */,
+				DBF0585D254E79F3008D8D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF0588D254E7C8B008D8D85 /* Build configuration list for PBXNativeTarget "TagetTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF0588E254E7C8B008D8D85 /* Debug */,
+				DBF0588F254E7C8B008D8D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBF05832254E79F2008D8D85 /* TagetTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBF05833254E79F2008D8D85 /* TagetTest.xcdatamodel */,
+			);
+			currentVersion = DBF05833254E79F2008D8D85 /* TagetTest.xcdatamodel */;
+			path = TagetTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBF0581B254E79F2008D8D85 /* Project object */;
+}
